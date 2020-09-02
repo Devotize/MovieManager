@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView android:id="@+id/movie_card_view_watched"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="@color/primaryDarkColor">
+
+        <ImageView
+            android:id="@+id/movie_card_poster_watched"
+            android:layout_width="100dp"
+            android:layout_marginStart="5dp"
+            android:layout_height="match_parent"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/secondaryLightColor">
+
+            <TextView
+                android:layout_margin="10dp"
+                android:id="@+id/movie_card_title_watched"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Title:"
+                android:textSize="24sp"
+                android:textColor="@color/primaryDarkColor"/>
+
+            <TextView
+                android:id="@+id/movie_card_director_watched"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primaryDarkColor"
+                android:textSize="22sp"
+                android:text="@string/director"
+                android:layout_margin="10dp"/>
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+
+

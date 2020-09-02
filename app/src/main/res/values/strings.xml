@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MovieManager</string>
+    <string name="director">Director: %1$s</string>
+    <string name="writer">Writer: %1$s</string>
+    <string name="stars">Stars: %1$s</string>
+    <string name="year_parentheses">(%1$s)</string>
+    <string name="released">Released: %1$s</string>
+    <string name="boxOffice">BoxOffice: %1$s</string>
+    <string name="runtime">Runtime: %1$s</string>
+    <string name="genre">Genre: %1$s</string>
+    <string name="awards">Awards: %1$s</string>
+    <string name="rating">Rating: %1$s/10</string>
+    <string name="ratingIMDB">RatingIMDB: %1$s/10</string>
+    <string name="county">County: %1$s</string>
+    <string name="plot">- - - - - - - - - - - - - \n %1$s</string>
+    <string name="add_to_watched">Add to watched</string>
+    <string name="add_to_watchlist">Add to watchlist</string>
+    <string name="toolbar_title">tatarian</string>
+    <string name="user_rating_text">%1$s/10</string>
+</resources>
